@@ -1,5 +1,5 @@
 fleet_list = []
-target_nodes = ["Node-A", "Node-B", "Node-C"]
+target_nodes = ["Node-A","Node-B","Node-C"]
 
 print("🚀 Solar Fleet Diagnostic Aggregator")
 print("-----------------------------------------------------------------")
