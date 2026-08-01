@@ -43,4 +43,4 @@ for turbine in turbine_list:
     print(f"{turbine_id:<12} | {rpm:<12} | {vibr:<12} | {status:<23}")
 
 print("-"*27)
-print(" SCAN COMPLETE")  
+print(" SCAN COMPLETE")
