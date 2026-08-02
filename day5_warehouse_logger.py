@@ -1,5 +1,4 @@
 warehouse_fleet =[]
-
 target_fleet =["Room 1","Room 2"]
 
 print("*" * 65)
