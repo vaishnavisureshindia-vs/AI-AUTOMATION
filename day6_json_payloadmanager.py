@@ -27,18 +27,22 @@ for item in target_fleet:
         " NAME ": item_name,
         " STOCK COUNT ": stock_count,
         " REORDER THRESHOLD ": reorder_threshold,
+        " REORDER FLAG ": reorder_flag,
         " ACTION STATUS " : action_status
     }
     payload_batch.append(details)
     print (f"          DATA ENTRY of {item} COMPLETE ")
     print("__"*10)
 
+# Save JSON
 with open("inventory_payload.json", "w", encoding="utf-8") as json_file:
     json.dump(payload_batch, json_file, indent = 4)
 
 print("__"*25)
+
+# Load JSON & Print
 with open("inventory_payload.json", "r", encoding="utf-8") as json_file:
     imported_payload = json.load(json_file)
     for detail in imported_payload:
-        print(detail[' ID '], detail[' NAME '], detail[' STOCK COUNT '], detail[' REORDER THRESHOLD '], detail[' ACTION STATUS '])
+        print(detail[' ID '], detail[' NAME '], detail[' STOCK COUNT '], detail[' REORDER THRESHOLD '], detail[' REORDER FLAG '], detail[' ACTION STATUS '])
 

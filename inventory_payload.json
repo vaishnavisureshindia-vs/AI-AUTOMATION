@@ -1,16 +1,18 @@
 [
     {
-        " ID ": "1234",
-        " NAME ": "LADOOS",
-        " STOCK COUNT ": 19,
-        " REORDER THRESHOLD ": 5,
+        " ID ": "12353",
+        " NAME ": "NOTEBOOKS SET OF 6",
+        " STOCK COUNT ": 10,
+        " REORDER THRESHOLD ": 3,
+        " REORDER FLAG ": false,
         " ACTION STATUS ": " \u2714\ufe0f  STOCK SUFFICIENT \u2714\ufe0f"
     },
     {
-        " ID ": "45356",
-        " NAME ": "DUPATTA SET OF 4",
-        " STOCK COUNT ": 5,
-        " REORDER THRESHOLD ": 2,
-        " ACTION STATUS ": " \u2714\ufe0f  STOCK SUFFICIENT \u2714\ufe0f"
+        " ID ": "76780",
+        " NAME ": "PENS AESTHETIC GLITTER",
+        " STOCK COUNT ": 8,
+        " REORDER THRESHOLD ": 10,
+        " REORDER FLAG ": true,
+        " ACTION STATUS ": " \ud83d\udea8  REORDER REQUIRED \ud83d\udea8 "
     }
 ]
