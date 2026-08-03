@@ -1,0 +1,16 @@
+[
+    {
+        " ID ": "1234",
+        " NAME ": "LADOOS",
+        " STOCK COUNT ": 19,
+        " REORDER THRESHOLD ": 5,
+        " ACTION STATUS ": " \u2714\ufe0f  STOCK SUFFICIENT \u2714\ufe0f"
+    },
+    {
+        " ID ": "45356",
+        " NAME ": "DUPATTA SET OF 4",
+        " STOCK COUNT ": 5,
+        " REORDER THRESHOLD ": 2,
+        " ACTION STATUS ": " \u2714\ufe0f  STOCK SUFFICIENT \u2714\ufe0f"
+    }
+]
