@@ -1,0 +1,9 @@
+{
+    "location": "Thiruvanthapuram Hub",
+    "latitude": 8.541301,
+    "longitude": 76.92176,
+    "temperature_c": 25.6,
+    "wind_spped_kmh": 16.4,
+    "safetyflag": true,
+    "dispatch_status": "DISPATCH SAFE \u2714\ufe0f"
+}
