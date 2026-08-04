@@ -12,10 +12,10 @@ if response.status_code == 200:
     data = response.json()
     current = data["current_weather"]
     temp = current["temperature"]
-    wind_speed = current["windspeed"]
+    wind_speed = current["windspeed"] 
 
     if wind_speed > 20.0:
-        safety_flag = False
+        safety_flag = False 
     else:
         safety_flag = True
 
