@@ -1,0 +1,12 @@
+{
+   "Hub name": "New Delhi, India",
+   "latitude": 28.700005,
+   "longitude": 77.20001,
+   "Time zone": "GMT",
+   "Time offset seconds": 0,
+   "time": "2026-08-05T17:00",
+   "PM 2.5": 71.2,
+   "Indian AQI": 83,
+   "Air Quality safety flag": false,
+   "Alert Level": "UNHEALTHY AIR"
+}
