@@ -1,0 +1,30 @@
+{
+   "hub_location": "Kochi Port Hub",
+   "forecast_days_count": 4,
+   "daily schedule": [
+      {
+         "date": "2026-08-06",
+         "max_temp_c": 27.1,
+         "max_wind_kmh": 31.4,
+         "dispatch_status": "HIGH WIND WARNING"
+      },
+      {
+         "date": "2026-08-07",
+         "max_temp_c": 26.2,
+         "max_wind_kmh": 31.2,
+         "dispatch_status": "HIGH WIND WARNING"
+      },
+      {
+         "date": "2026-08-08",
+         "max_temp_c": 27.0,
+         "max_wind_kmh": 32.9,
+         "dispatch_status": "HIGH WIND WARNING"
+      },
+      {
+         "date": "2026-08-09",
+         "max_temp_c": 26.6,
+         "max_wind_kmh": 25.5,
+         "dispatch_status": "HIGH WIND WARNING"
+      }
+   ]
+}
