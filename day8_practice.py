@@ -2,10 +2,10 @@ import json
 import requests
 
 # 1. Take city name input from user
-city_name = input("Enter City Name (e.g., Kochi, New Delhi, Thrissur): ").strip()
+city_name = input("Enter City Name (e.g., Kochi, New Delhi, Thrissur): ").strip()     # removes any accidental trailing/leading whitespaces from the text user input
 days = int(input("Enter No. of Tracking Days: "))
 
-# 2. Call Geocoding API to resolve coordinates
+# 2. Call Geocoding API to resolve coordinates (to get the place longitude, latitude for further weather forecast)
 geo_url = "https://geocoding-api.open-meteo.com/v1/search"
 geo_params = {
     "name": city_name,
