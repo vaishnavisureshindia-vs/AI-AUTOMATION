@@ -1,0 +1,24 @@
+{
+   "hub_location": "Thrissur, India",
+   "forecast_days_count": 3,
+   "daily_schedule": [
+      {
+         "date": "2026-08-20",
+         "max_temp_c": 29.4,
+         "max_wind_kmh": 17.8,
+         "dispatch_status": "HIGH_WIND_WARNING"
+      },
+      {
+         "date": "2026-08-21",
+         "max_temp_c": 29.5,
+         "max_wind_kmh": 19.1,
+         "dispatch_status": "HIGH_WIND_WARNING"
+      },
+      {
+         "date": "2026-08-22",
+         "max_temp_c": 30.0,
+         "max_wind_kmh": 17.4,
+         "dispatch_status": "HIGH_WIND_WARNING"
+      }
+   ]
+}
