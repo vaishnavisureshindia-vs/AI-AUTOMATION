@@ -25,9 +25,8 @@ new_user_payload = {
 }
 
 # 4. Set custom headers
-custom_headers = {
-    "Content-Type": "application/json",
-    "Authorization": api_key
+headers = {
+    "Content-Type": "application/json"
 }
 
 # 5. Send POST request inside try-except
@@ -37,7 +36,7 @@ try:
     response = requests.post(
         base_url,
         json=new_user_payload,
-        headers=custom_headers,
+        headers=headers,
         timeout=5
     )
     response.raise_for_status()
