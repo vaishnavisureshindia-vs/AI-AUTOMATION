@@ -34,7 +34,7 @@ for page in range(1, max_pages + 1):
                 print(f"⚠️ Rate limit hit. Retrying in {backoff_delay} seconds...")
                 time.sleep(backoff_delay)
                 backoff_delay *= 2  # Exponentially scale wait time
-                continue
+                continue 
                 
             # Safely raise exceptions for other HTTP errors (4xx/5xx)
             response.raise_for_status()
